@@ -94,7 +94,10 @@ function Timer() {
                 styles={buildStyles({
                     textColor: "lightblue",
                     pathColor: mode === 'work' ? "lightBlue" : 'lightGreen',
-                    trailColor: "lightgray"
+                    trailColor: "lightgray",
+                    // strokeLinecap: 'butt'
+                    strokeWidth:20
+
 
                 })} />
 
