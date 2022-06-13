@@ -7,7 +7,7 @@ import ConfirmButton from "./ConfrimButton";
 function Settings() {
   const settingsInfo = useContext(SettingsContext);
   return (
-    <div style={{ textAlign: "left" }}>
+    <div className="settingsContainer">
       {/* -------------------- work */}
       <label>Work: {settingsInfo.workMinutes}:00</label>
       <ReactSlider

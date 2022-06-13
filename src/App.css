@@ -1,24 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-color: white;
-  color: black;
+  color: var(--comp);
+  background-color: var(--background);
+  font-family: "Roboto", sans-serif;
 }
 
-main {
-  padding-top: 50px;
-  max-width: 340px;
-  margin: 0 auto;
-  text-align: center;
+
+
+header {
+  width: 60%;
+  /* display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: flex-start;
+  justify-content: flex-start;
+  justify-items: flex-start;
+  justify-self: flex-start; */
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+
 }
 
-button{
+h1{
+  font-size: 3rem;
+  margin: 0;
+  font-weight: 200;
+  color: var(--title);
+  margin-bottom: 10px;
+  border-bottom: 2px solid;
+}
+
+header h2 {
+  color: var(--text);
+  text-transform: capitalize;
+  font-size: 22px;
+  font-weight: 400;
+
+}
+
+/* text inside clock */
+
+h3{
+  font-size: 5rem;
+  margin: 0;
+  color: var(--title);
+  font-weight: 400;
+}
+
+
+.timerContainer {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+.progressBarContainer {
+  width: 30%;
+}
+
+
+
+button {
+  width: 50px;
+  height: 50px;
   background-color: transparent;
-  color: lightblue;
-  border: 0;
-  display: inline-block;
-  width: 100px;
+  color: var(--button);
+  border: none;
+margin-top: 2rem;}
+
+.buttonsContainer {
+  display: flex;
+  width: 30%;
+  align-items: center;
+  justify-content: center;
 }
 
-label{display: block;
-  margin-top: 10px;
-
-}
