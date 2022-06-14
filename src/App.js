@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-
-import Settings from './components/Settings';
-import Timer from './components/Timer';
 import { useState } from "react";
 import SettingsContext from './context/SettingsContext';
+import Settings from './components/Settings';
+import Timer from './components/Timer';
+
 
 function App() {
 
@@ -27,15 +27,11 @@ function App() {
         longBreakMinutes,
         setLongBreakMinutes
       }} >
-      
-      
-      {/* Settings & Timer components */}
-      {/* if showSettings is true show the Settings, otherwise, show Timer */}
-      {showSettings ? <Settings /> : <Timer />}
-      
+
+        {/* Settings & Timer components */}
+        {/* if showSettings is true show the Settings, otherwise, show Timer */}
+        {showSettings ? <Settings /> : <Timer />}
       </SettingsContext.Provider>
-
-
     </main>
   );
 }

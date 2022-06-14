@@ -1,0 +1,35 @@
+.settingsContainer {
+  background-color: var(--background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-top: 16rem;
+  padding: 4rem 4rem;
+}
+
+label {
+  color: var(--text);
+  font-size: 1.5rem;
+  font-weight: 400;
+  width: 30%;
+}
+.slider {
+  border: 2px solid var(--element);
+  border-radius: 20px;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  width: 30%;
+}
+.sliderBreak {
+  margin-bottom: 1rem;
+}
+
+.thumb {
+  background-color: white;
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin: -8px;
+}

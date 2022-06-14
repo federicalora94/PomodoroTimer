@@ -1,0 +1,16 @@
+.buttonsContainer {
+  width: 100%;
+  display: flex;
+  width: 30%;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  width: 100px;
+  background-color: transparent;
+  color: var(--button);
+  border: none;
+  margin-top: 2rem;
+  padding: 1rem;
+}

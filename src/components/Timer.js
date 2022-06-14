@@ -2,12 +2,16 @@ import React from "react";
 import { useContext, useState, useEffect, useRef } from "react";
 import SettingsContext from "../context/SettingsContext";
 
+//----- Icons -----
+import laptop from '../assests/laptop.svg';
+import mug from '../assests/mug.svg';
+
 //----- CircularProgressbar -----
 //documentation: https://www.npmjs.com/package/react-circular-progressbar
 import { CircularProgressbarWithChildren, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
-//----- Button components -----
+//----- Button components ------------------
 import PauseButton from "./PauseButton";
 import PlayButton from "./PlayButton";
 import SettingsButton from "./SettingsButtton";
@@ -19,7 +23,8 @@ function Timer() {
   const [secondsLeft, setSecondsLeft] = useState(0);
   var [count, setCount] = useState(0);
 
-  // Why do I use refs? To not have the values re-rendered when they change.
+  // Why do I use refs? 
+  //To not have the values re-rendered when they change.
   const secondsLeftRef = useRef(secondsLeft);
   const isPausedRef = useRef(isPaused);
   const modeRef = useRef(mode);
@@ -59,7 +64,7 @@ function Timer() {
     }, 100);
   }, [settingsInfo]);
 
-  //--------------- timer mechanism -----------
+  //--------------- timer mechanism ----------------
 
   // PERCENTAGE
   const totalSeconds =
@@ -78,39 +83,40 @@ function Timer() {
 
       {/* ---- Settings button component ---- */}
       <header>
-
-      {mode === 'work'
-            ? (<h1 id="modeTitleWork">Time to {mode}</h1>) 
-            : (<h1 id="modeTitleBreak">Take a {mode}</h1>)
-          }
-
-<h2 className="countString">Completed work sessions: {count}</h2>
-  
+        {mode === 'work'
+          ? (<h1 id="modeTitleWork">Time to {mode}</h1>)
+          : (<h1 id="modeTitleBreak">Take a {mode}</h1>)
+        }
+        <h2 className="countString">Completed work sessions: {count}</h2>
       </header>
 
-      {/* ---- Progressbar ---- */}
+      {/* ---- Progressbar -------------- */}
       <div className="progressBarContainer">
         <CircularProgressbarWithChildren
           value={percentage}
-          strokeWidth={2}
+          strokeWidth={1}
           styles={buildStyles({
-            textColor: "white",
             pathColor: "white",
             trailColor: " rgba(255, 255, 255, 0.2)",
           })}>
+
+          {/* ---- Icons -------------- */}
+          {mode === 'work'
+            ? (<img className="clockIcon" src={laptop} />)
+            : (<img className="clockIcon" src={mug} />)
+          }
+
+          {/* ----- countdown -------------- */}
           <h3>{minutes + ":" + seconds}</h3>
 
-        
         </CircularProgressbarWithChildren>
       </div>
 
 
-      {/* ---- Play-Pause button component ---- */}
-
+      {/* ---- Play-Pause button components ---- */}
       <div className="buttonsContainer">
-      <SettingsButton onClick={() => settingsInfo.setShowSettings(true)} />
+        <SettingsButton onClick={() => settingsInfo.setShowSettings(true)} />
 
-     
         {isPaused ? (
           <PlayButton
             onClick={() => {
@@ -125,12 +131,10 @@ function Timer() {
               isPausedRef.current = true;
             }}
           />
-
         )}
+
       </div>
-
     </div>
-
   );
 }
 

@@ -1,0 +1,15 @@
+.progressBarContainer {
+  width: 30%;
+}
+/* text inside clock */
+h3 {
+  font-size: 4vw;
+  margin: 0;
+  color: var(--title);
+  font-weight: 400;
+}
+
+/* Icons   */
+.clockIcon {
+  width: 3.2vw;
+}
