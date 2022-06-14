@@ -94,7 +94,7 @@ function Timer() {
       <div className="progressBarContainer">
         <CircularProgressbarWithChildren
           value={percentage}
-          strokeWidth={1}
+          strokeWidth={1.5}
           styles={buildStyles({
             pathColor: "white",
             trailColor: " rgba(255, 255, 255, 0.2)",

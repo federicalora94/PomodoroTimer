@@ -3,7 +3,8 @@
   header {
     width: 90%;
     margin-bottom: 2rem;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
+
   }
 
   h1 {
@@ -11,7 +12,7 @@
   }
   h2 {
     font-size: 7vw;
-    margin-top: 1rem;
+    margin-top: 0.3rem;
   }
 
   h3 {
@@ -26,14 +27,7 @@
     width: 12vw;
   }
 
-  .buttonsContainer {
-    width: 30%;
-    margin-top: 1.5rem;
-  }
 
-  button {
-    width: 100%;
-  }
 
   /* ---------- settings ----------*/
   .settingsContainer {
@@ -55,27 +49,28 @@
     margin-bottom: 2rem;
   }
 
-  .confirmButton {
-    width: 100%;
+  button{
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
   }
-
-  .confirmButtonDiv {
-    width: 29%;
-  }
+ 
 }
 @media screen and (min-width: 301px) and (max-width: 480px) {
+
+  
   header {
     width: 90%;
-    margin-bottom: 2rem;
-    margin-top: 1.5rem;
+    margin-bottom: 4rem;
+    margin-top: 5rem;
   }
 
   h1 {
-    font-size: 9vw;
+    font-size: 6vw;
   }
   h2 {
-    font-size: 5vw;
-    margin-top: 1rem;
+    font-size: 4vw;
+    margin-top: 0.3rem;
   }
 
   h3 {
@@ -90,14 +85,8 @@
     width: 10vw;
   }
 
-  .buttonsContainer {
-    width: 25%;
-    margin-top: 1.5rem;
-  }
-
-  button {
-    width: 100%;
-  }
+ 
+  
 
   /* ---------- settings ----------*/
   .settingsContainer {
@@ -118,28 +107,20 @@
     margin-bottom: 2.5rem;
   }
 
-  .confirmButton {
-    width: 100%;
-  }
 
-  .confirmButtonDiv {
-    width: 17%;
-  }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
+  
   header {
     width: 80%;
     margin-bottom: 6rem;
-    margin-top: 1.5rem;
+    margin-top: 5rem;
   }
 
-  h1 {
-    font-size: 7vw;
-  }
   h2 {
-    font-size: 3vw;
-    margin-top: 1rem;
+    font-size: 3.5vw;
+    margin-top: 0.3rem;
   }
 
   h3 {
@@ -154,13 +135,7 @@
     width: 7vw;
   }
 
-  .buttonsContainer {
-    width: 20%;
-    margin-top: 2.5rem;
-  }
-
-  button {
-    width: 100%;
+  
   }
   /* ---------- settings ----------*/
   .settingsContainer {
@@ -168,63 +143,48 @@
   }
 
   label {
-    font-size: 4vw;
-    width: 60%;
+    font-size: 3vw;
+    width: 65%;
   }
 
   .slider {
     margin-top: 1rem;
     margin-bottom: 3rem;
-    width: 60%;
+    width: 65%;
   }
   .sliderBreak {
     margin-bottom: 3.5rem;
   }
 
-  .confirmButton {
-    width: 100%;
-  }
-
-  .confirmButtonDiv {
-    width: 14%;
-  }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1279px) {
+@media screen and (min-width: 769px) and (max-width: 900px) {
+ 
   header {
     width: 80%;
     margin-bottom: 6rem;
-    margin-top: 1.5rem;
+    margin-top: 5rem;
   }
 
   h1 {
-    font-size: 6vw;
+    font-size: 3.2vw;
   }
   h2 {
-    font-size: 3vw;
-    margin-top: 1rem;
+    font-size: 2.5vw;
+    margin-top: 0.3rem;
   }
 
   h3 {
-    font-size: 7vw;
+    font-size: 5vw;
   }
 
   .progressBarContainer {
-    width: 60%;
+    width: 48%;
   }
 
   .clockIcon {
-    width: 7vw;
+    width: 5vw;
   }
 
-  .buttonsContainer {
-    width: 20%;
-    margin-top: 2.5rem;
-  }
-
-  button {
-    width: 100%;
-  }
+  
 
 
   /* ---------- settings ----------*/
@@ -233,63 +193,33 @@
   }
 
   label {
-    font-size: 3vw;
-    width: 50%;
+    font-size: 2.5vw;
+    width: 26%;
   }
 
   .slider {
     margin-top: 1rem;
     margin-bottom: 3rem;
-    width: 50%;
+    width: 26%;
   }
   .sliderBreak {
     margin-bottom: 3.5rem;
   }
 
-  .confirmButton {
-    width: 100%;
-  }
-
-  .confirmButtonDiv {
-    width: 10%;
-  }
-
-/* ---------- settings ----------*/
-.settingsContainer {
-    margin-top: 10rem;
-  }
-
-  label {
-    font-size: 3vw;
-    width: 50%;
-  }
-
-  .slider {
-    margin-top: 1rem;
-    margin-bottom: 3rem;
-    width: 50%;
-  }
-  .sliderBreak {
-    margin-bottom: 3.5rem;
-  }
-
-  .confirmButton {
-    width: 100%;
-  }
-
-  .confirmButtonDiv {
-    width: 8%;
-  }
-
+  
 }
 
 
 
-@media screen and (min-width: 1280px) and (max-width: 5000px) {
+@media screen and (min-width: 901px) and (max-width: 1199px) {
+ 
+  
+
+  
   header {
     width: 80%;
-    margin-bottom: 2rem;
-    margin-top: 1.5rem;
+    margin-bottom: 6rem;
+    margin-top: 5rem;
   }
 
   h1 {
@@ -297,7 +227,66 @@
   }
   h2 {
     font-size: 2vw;
+    margin-top: 0.3rem;
+  }
+
+  h3 {
+    font-size: 4.5vw;
+  }
+
+  .progressBarContainer {
+    width: 35%;
+  }
+
+  .clockIcon {
+    width: 4.5vw;
+  }
+
+ 
+
+
+  /* ---------- settings ----------*/
+  .settingsContainer {
+    margin-top: 9rem;
+  }
+
+  label {
+    font-size: 2vw;
+    width: 25%;
+  }
+
+  .slider {
     margin-top: 1rem;
+    margin-bottom: 3rem;
+    width: 25%;
+  }
+  .sliderBreak {
+    margin-bottom: 3.5rem;
+  }
+
+
+  
+
+}
+
+
+
+@media screen and (min-width: 1200px) and (max-width: 1800px) {
+  
+
+  
+  header {
+    width: 70%;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+  }
+
+  h1 {
+    font-size: 2.7vw;
+  }
+  h2 {
+    font-size: 1.7vw;
+    margin-top: 0.3rem;
   }
 
   h3 {
@@ -312,15 +301,7 @@
     width: 3.5vw;
   }
 
-  .buttonsContainer {
-    width: 10%;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-
-  button {
-    width: 100%;
-  }
+  
   .settingsContainer {
     margin-top: 10rem;
   }
@@ -339,12 +320,57 @@
     margin-bottom: 3.5rem;
   }
 
-  .confirmButton {
-    width: 100%;
+
+}
+
+
+@media screen and (min-width: 1801px)  {
+  
+
+  
+  header {
+    width: 70%;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
   }
 
-  .confirmButtonDiv {
-    width: 5%;
+  h1 {
+    font-size: 2.4vw;
   }
+  h2 {
+    font-size: 2.1vw;
+    margin-top: 0.3rem;
+  }
+
+  h3 {
+    font-size: 2.5vw;
+  }
+
+  .progressBarContainer {
+    width: 25%;
+  }
+
+  .clockIcon {
+    width: 2.5vw;
+  }
+
+  .settingsContainer {
+    margin-top: 10rem;
+  }
+/* ------------- settings  --------  */
+  label {
+    font-size: 1.6vw;
+    width: 27%;
+  }
+
+  .slider {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    width: 27%;
+  }
+  .sliderBreak {
+    margin-bottom: 3.5rem;
+  }
+
 
 }
