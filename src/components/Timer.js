@@ -61,7 +61,7 @@ function Timer() {
       }
       tick();
       return interval;
-    }, 100);
+    }, 1000);
   }, [settingsInfo]);
 
   //--------------- timer mechanism ----------------
