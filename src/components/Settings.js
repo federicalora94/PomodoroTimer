@@ -34,8 +34,9 @@ function Settings() {
         />
 
         {/* -------------------- confirm button ---------------------------*/}
-
+        <div className="confirmButtonDiv">
         <ConfirmButton onClick={() => settingsInfo.setShowSettings(false)} />
+        </div>
       </div>
 
     </>

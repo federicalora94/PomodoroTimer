@@ -1,0 +1,350 @@
+/* extra small */
+@media screen and (max-width: 300px) {
+  header {
+    width: 90%;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  h1 {
+    font-size: 10vw;
+  }
+  h2 {
+    font-size: 7vw;
+    margin-top: 1rem;
+  }
+
+  h3 {
+    font-size: 12vw;
+  }
+
+  .progressBarContainer {
+    width: 80%;
+  }
+
+  .clockIcon {
+    width: 12vw;
+  }
+
+  .buttonsContainer {
+    width: 30%;
+    margin-top: 1.5rem;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  /* ---------- settings ----------*/
+  .settingsContainer {
+    margin-top: 5rem;
+  }
+
+  label {
+    font-size: 9.2vw;
+    width: 70%;
+
+}
+
+  .slider {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    width: 70%;
+  }
+  .sliderBreak {
+    margin-bottom: 2rem;
+  }
+
+  .confirmButton {
+    width: 100%;
+  }
+
+  .confirmButtonDiv {
+    width: 29%;
+  }
+}
+@media screen and (min-width: 301px) and (max-width: 480px) {
+  header {
+    width: 90%;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  h1 {
+    font-size: 9vw;
+  }
+  h2 {
+    font-size: 5vw;
+    margin-top: 1rem;
+  }
+
+  h3 {
+    font-size: 10vw;
+  }
+
+  .progressBarContainer {
+    width: 80%;
+  }
+
+  .clockIcon {
+    width: 10vw;
+  }
+
+  .buttonsContainer {
+    width: 25%;
+    margin-top: 1.5rem;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  /* ---------- settings ----------*/
+  .settingsContainer {
+    margin-top: 5rem;
+  }
+
+  label {
+    font-size: 6vw;
+    width: 60%;
+  }
+
+  .slider {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    width: 60%;
+  }
+  .sliderBreak {
+    margin-bottom: 2.5rem;
+  }
+
+  .confirmButton {
+    width: 100%;
+  }
+
+  .confirmButtonDiv {
+    width: 17%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  header {
+    width: 80%;
+    margin-bottom: 6rem;
+    margin-top: 1.5rem;
+  }
+
+  h1 {
+    font-size: 7vw;
+  }
+  h2 {
+    font-size: 3vw;
+    margin-top: 1rem;
+  }
+
+  h3 {
+    font-size: 7vw;
+  }
+
+  .progressBarContainer {
+    width: 65%;
+  }
+
+  .clockIcon {
+    width: 7vw;
+  }
+
+  .buttonsContainer {
+    width: 20%;
+    margin-top: 2.5rem;
+  }
+
+  button {
+    width: 100%;
+  }
+  /* ---------- settings ----------*/
+  .settingsContainer {
+    margin-top: 5rem;
+  }
+
+  label {
+    font-size: 4vw;
+    width: 60%;
+  }
+
+  .slider {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    width: 60%;
+  }
+  .sliderBreak {
+    margin-bottom: 3.5rem;
+  }
+
+  .confirmButton {
+    width: 100%;
+  }
+
+  .confirmButtonDiv {
+    width: 14%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+  header {
+    width: 80%;
+    margin-bottom: 6rem;
+    margin-top: 1.5rem;
+  }
+
+  h1 {
+    font-size: 6vw;
+  }
+  h2 {
+    font-size: 3vw;
+    margin-top: 1rem;
+  }
+
+  h3 {
+    font-size: 7vw;
+  }
+
+  .progressBarContainer {
+    width: 60%;
+  }
+
+  .clockIcon {
+    width: 7vw;
+  }
+
+  .buttonsContainer {
+    width: 20%;
+    margin-top: 2.5rem;
+  }
+
+  button {
+    width: 100%;
+  }
+
+
+  /* ---------- settings ----------*/
+  .settingsContainer {
+    margin-top: 5rem;
+  }
+
+  label {
+    font-size: 3vw;
+    width: 50%;
+  }
+
+  .slider {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    width: 50%;
+  }
+  .sliderBreak {
+    margin-bottom: 3.5rem;
+  }
+
+  .confirmButton {
+    width: 100%;
+  }
+
+  .confirmButtonDiv {
+    width: 10%;
+  }
+
+/* ---------- settings ----------*/
+.settingsContainer {
+    margin-top: 10rem;
+  }
+
+  label {
+    font-size: 3vw;
+    width: 50%;
+  }
+
+  .slider {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    width: 50%;
+  }
+  .sliderBreak {
+    margin-bottom: 3.5rem;
+  }
+
+  .confirmButton {
+    width: 100%;
+  }
+
+  .confirmButtonDiv {
+    width: 8%;
+  }
+
+}
+
+
+
+@media screen and (min-width: 1280px) and (max-width: 5000px) {
+  header {
+    width: 80%;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  h1 {
+    font-size: 3vw;
+  }
+  h2 {
+    font-size: 2vw;
+    margin-top: 1rem;
+  }
+
+  h3 {
+    font-size: 3.5vw;
+  }
+
+  .progressBarContainer {
+    width: 35%;
+  }
+
+  .clockIcon {
+    width: 3.5vw;
+  }
+
+  .buttonsContainer {
+    width: 10%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  button {
+    width: 100%;
+  }
+  .settingsContainer {
+    margin-top: 10rem;
+  }
+/* ------------- settings  --------  */
+  label {
+    font-size: 1.9vw;
+    width: 27%;
+  }
+
+  .slider {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    width: 27%;
+  }
+  .sliderBreak {
+    margin-bottom: 3.5rem;
+  }
+
+  .confirmButton {
+    width: 100%;
+  }
+
+  .confirmButtonDiv {
+    width: 5%;
+  }
+
+}
